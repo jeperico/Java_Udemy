@@ -1,8 +1,8 @@
 package fundamentos;
 
-import java.util.Date;
+// import java.util.Date;
 
-import javax.swing.JButton;
+//import javax.swing.JButton;
 
 public class Import {
 
@@ -11,9 +11,9 @@ public class Import {
 		java.lang.String b = "Boa tarde";
 		System.out.println(b);
 		
-		Date d = new Date();
-		System.out.println(d);
+//		Date d = new Date();
+//		System.out.println(d);
 		
-		JButton botao = new JButton();
+//		JButton botao = new JButton();
 	}
 }
