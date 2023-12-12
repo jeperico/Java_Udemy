@@ -20,6 +20,10 @@ public class Console {
 		String name = input.nextLine();
 		System.out.print("Digite seu sobrenome: ");
 		String lastname = input.nextLine();
-		System.out.printf("Your name is %s %s? Good name bro!", name, lastname);
+		System.out.print("Digite sua idade: ");
+		int age = input.nextInt();
+		System.out.printf("Your name is %s %s? Good name bro! %d years, it`s pretty big ", name, lastname, age);
+		
+		input.close();
 	}
 }
