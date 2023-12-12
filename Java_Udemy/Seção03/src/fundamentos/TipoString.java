@@ -45,9 +45,6 @@ public class TipoString {
 //		System.out.println("       Olá, B0m DIA?!??\n".strip());								// Remove os espaços vazios a esquerda
 //		System.out.println("Olá, B0m DIA?!??\n".substring(2));									// Remove o começo da String
 //		System.out.println("Olá, B0m DIA?!??\n".toCharArray());									// Retorna a String em formato de Array
-//		System.out.println("Olá, B0m DIA?!??\n".);
-//		System.out.println("Olá, B0m DIA?!??\n");
-//		System.out.println("Olá, B0m DIA?!??\n");
 
 	}
 }
