@@ -1,4 +1,4 @@
-package fundamentos;
+package fundamentos.tipos;
 
 public class TiposPrimitivos {
 
