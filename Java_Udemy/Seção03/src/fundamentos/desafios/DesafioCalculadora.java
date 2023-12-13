@@ -22,10 +22,10 @@ public class DesafioCalculadora {
 		System.out.println("Agora informe a operação desejada (+, -, *, / ou %)");
 		String operacao = entrada.next();
 		
-		double operadorDivisão = operacao.equals(operacao) ? num01 / num02 : num01 % num02;
-		double operadorVezes = operacao.equals(operacao) ? num01 * num02 : operadorDivisão;
-		double operadorMenos = operacao.equals(operacao) ? num01 - num02 : operadorVezes;
-		double operacaoFinal = operacao.equals(operacao) ? num01 + num02 : operadorMenos;
+		double operadorDivisão = "/".equals(operacao) ? num01 / num02 : num01 % num02;
+		double operadorVezes = "*".equals(operacao) ? num01 * num02 : operadorDivisão;
+		double operadorMenos = "-".equals(operacao) ? num01 - num02 : operadorVezes;
+		double operacaoFinal = "+".equals(operacao) ? num01 + num02 : operadorMenos;
 		
 		System.out.printf("O resultado final da operação é %f", operacaoFinal);
 				
