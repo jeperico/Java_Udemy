@@ -26,7 +26,7 @@ public class Switch {
 			System.out.println("Não sei nada");
 		}
 		
-		System.out.println("Sim");
+		System.out.println("Fim!");
 
 	}
 }
