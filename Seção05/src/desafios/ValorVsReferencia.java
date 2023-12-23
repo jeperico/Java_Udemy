@@ -1,7 +1,5 @@
 package desafios;
 
-import fundamentos.Produto;
-
 public class ValorVsReferencia {
 
 	public static void main(String[] args) {
