@@ -13,7 +13,13 @@ public class Arrays {
 //		double[][] arrayArray = new double[3][3];
 		
 		for(int i = 0; i < a.length; i++) {
-			System.out.println(a[i]);
+			System
+			.
+			out
+			.
+			println
+			(a[i])
+			;
 		}
 		System.out.println();
 
