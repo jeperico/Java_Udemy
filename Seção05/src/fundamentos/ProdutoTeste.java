@@ -4,12 +4,8 @@ public class ProdutoTeste {
 
 	public static void main(String[] args) {
 		
-		Produto p1 = new Produto();
+		Produto p1 = new Produto("Celular", 4567.23, 0.2);
 		var p2 = new Produto();
-		
-		p1.nome = "Celular";
-		p1.preco = 4567.23;
-		p1.desconto = 0.2;
 		
 		p2.nome = "Note";
 		p2.preco = 8765.43;
