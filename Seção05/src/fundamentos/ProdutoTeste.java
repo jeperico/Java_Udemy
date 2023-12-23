@@ -18,6 +18,7 @@ public class ProdutoTeste {
 		System.out.println(p1);
 		System.out.println(p1.nome.toUpperCase());
 		System.out.println(p2.preco);
+		System.out.println(p2.precoDescontado());
 		System.out.println(p2.preco * (1 - p2.desconto));
 	}
 }

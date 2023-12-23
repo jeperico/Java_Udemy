@@ -12,16 +12,16 @@ public class DataTeste {
 		data01.mes = 12;
 		data01.ano = 2023;
 		
-		data02.dia = 01;
-		data02.mes = 01;
+		data02.dia = 1;
+		data02.mes = 1;
 		data02.ano = 2001;
 		
 		data03.dia = 12;
 		data03.mes = 12;
 		data03.ano = 2012;
 		
-		System.out.printf("Data atual: %d/%d/%d.\n", data01.dia, data01.mes, data01.ano);
-		System.out.printf("0%d/0%d/%d.\n", data02.dia, data02.mes, data02.ano);
-		System.out.printf("%d/%d/%d.\n", data03.dia, data03.mes, data03.ano);		
+		System.out.printf("Data atual: %s.\n", data01.dataFormatada());
+		System.out.println(data02.dataFormatada());
+		System.out.println(data03.dataFormatada());		
 	}
 }
