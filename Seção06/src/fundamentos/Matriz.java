@@ -1,5 +1,6 @@
 package fundamentos;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Matriz {
@@ -38,6 +39,10 @@ public class Matriz {
 		
 		System.out.println();
 		System.out.println("A média de notas da sala é " + mediaTotal);
+		
+		for(double[] notasAluno: notas) {
+			System.out.println(Arrays.toString(notasAluno));
+		}
 
 		input.close();
 	}
