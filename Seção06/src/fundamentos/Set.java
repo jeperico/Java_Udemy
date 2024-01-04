@@ -10,9 +10,10 @@ public class Set {
 	//	Pode ser duplicado
 	//	Não é indexado
 	
+	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public static void main(String[] args) {
 		
-		HashSet<E> conjunto = new HashSet<E>();
+		HashSet conjunto = new HashSet();
 		
 		conjunto.add(1.2); // double -> Double
 		conjunto.add(true);
@@ -26,7 +27,7 @@ public class Set {
 		System.out.println(conjunto.contains(1.2));
 		System.out.println(conjunto.contains(1.3));
 		
-		java.util.Set<E> num = new HashSet<E>();
+		java.util.Set num = new HashSet();
 		num.add(1);
 		num.add(2);
 		num.add(3);
@@ -40,6 +41,8 @@ public class Set {
 		conjunto.retainAll(num);
 		System.out.println(conjunto);
 		
+		conjunto.add("alabasta");
+		System.out.println(conjunto);
 		
 		conjunto.clear();
 		System.out.println(conjunto);
