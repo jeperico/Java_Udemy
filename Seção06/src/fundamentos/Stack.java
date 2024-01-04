@@ -16,6 +16,12 @@ public class Stack {
 		pia.add("Livretinha");
 		pia.push("Libro");
 		
+		for(String livro: pia) {
+			System.out.println("Nome: " + livro + ".");
+		}
+		
+		System.out.println();
+		
 		System.out.println(pia.peek());		// If the stack is empty, it returns Null
 		System.out.println(pia.element());	// If the stack is empty, it returns a exception
 		
