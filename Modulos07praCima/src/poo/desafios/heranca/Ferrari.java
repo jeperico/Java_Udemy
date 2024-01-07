@@ -5,7 +5,7 @@ public class Ferrari extends Carro {
 	public int aceleracao = 35;
 	
 	public Ferrari(String name) {
-		super(name);
+		super(name, 420);
 	}
 	
 	@Override

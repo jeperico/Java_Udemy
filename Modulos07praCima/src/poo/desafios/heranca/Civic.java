@@ -5,7 +5,7 @@ public class Civic extends Carro {
 	public int aceleracao = 10;
 	
 	public Civic(String name) {
-		super(name);
+		super(name, 300);
 	}
 	
 	@Override
