@@ -4,7 +4,7 @@ class Civic extends Carro {
 		
 	public Civic(String name) {
 		super(name, 300);
-		delta = 10;
+		setDelta(15);
 	}
 
 	public void nitro(int nivel) {

@@ -5,7 +5,7 @@ class Carro {
 	public double ms = 0;
 	public double distanciaPercorrida = 0;
 	public String name;
-	protected int delta;
+	private int delta;
 	final public int VELOCIDADE_MAXIMA;
 	
 	public Carro(String name, int velocidadeMaxima) {
@@ -26,5 +26,12 @@ class Carro {
 	public String toString() {
 		return "Distância percorrida por " + this.name + " => [" + this.distanciaPercorrida + "m] <=====> [" + this.ms + "ms];";
 	}
-	
+
+	public int getDelta() {
+		return delta;
+	}
+
+	public void setDelta(int delta) {
+		this.delta = delta;
+	}
 }
