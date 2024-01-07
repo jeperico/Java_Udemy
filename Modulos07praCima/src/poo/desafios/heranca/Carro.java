@@ -14,7 +14,7 @@ class Carro {
 	}
 	
 	public void acelerar() {
-		this.ms += delta;
+		this.ms += getDelta();
 		this.distanciaPercorrida += ms;
 	}
 	
