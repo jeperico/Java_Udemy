@@ -10,5 +10,7 @@ public class CalculoMain2 {
 		calculo = (x, y) -> x * y;
 		System.out.println(calculo.executar(2, 4));
 		
+		System.out.println(calculo.functiona());
+		System.out.println(Calculo.funcionaTambem());
 	}
 }
