@@ -40,7 +40,7 @@ public class Corrida {
 		System.out.println();
 		
 		ferrari.acelerar();
-		civic.nitro(3);
+		civic.nitro(2);
 		System.out.println("Segundo 5.0");
 		System.out.println(ferrari.toString());
 		System.out.println(civic.toString());

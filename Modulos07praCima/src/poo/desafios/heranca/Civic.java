@@ -1,17 +1,10 @@
 package poo.desafios.heranca;
 
 public class Civic extends Carro {
-	
-	public int aceleracao = 10;
-	
+		
 	public Civic(String name) {
 		super(name, 300);
-	}
-	
-	@Override
-	public void acelerar() {
-		this.ms += aceleracao;
-		super.acelerar();
+		delta = 10;
 	}
 
 	public void nitro(int nivel) {

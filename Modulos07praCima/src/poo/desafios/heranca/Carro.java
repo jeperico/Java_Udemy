@@ -5,6 +5,7 @@ public class Carro {
 	public double ms = 0;
 	public double distanciaPercorrida = 0;
 	public String name;
+	public int delta;
 	final int VELOCIDADE_MAXIMA;
 	
 	public Carro(String name, int velocidadeMaxima) {
@@ -13,6 +14,7 @@ public class Carro {
 	}
 	
 	public void acelerar() {
+		this.ms += delta;
 		this.distanciaPercorrida += ms;
 	}
 	
