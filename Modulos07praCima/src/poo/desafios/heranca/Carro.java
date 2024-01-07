@@ -1,12 +1,12 @@
 package poo.desafios.heranca;
 
-public class Carro {
+class Carro {
 
 	public double ms = 0;
 	public double distanciaPercorrida = 0;
 	public String name;
-	public int delta;
-	final int VELOCIDADE_MAXIMA;
+	protected int delta;
+	final public int VELOCIDADE_MAXIMA;
 	
 	public Carro(String name, int velocidadeMaxima) {
 		this.name = name;

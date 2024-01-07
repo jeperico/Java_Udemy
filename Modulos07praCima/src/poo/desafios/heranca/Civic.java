@@ -1,6 +1,6 @@
 package poo.desafios.heranca;
 
-public class Civic extends Carro {
+class Civic extends Carro {
 		
 	public Civic(String name) {
 		super(name, 300);
