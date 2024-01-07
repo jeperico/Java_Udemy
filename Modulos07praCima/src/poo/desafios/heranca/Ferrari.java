@@ -7,7 +7,8 @@ public class Ferrari extends Carro {
 	public Ferrari(String name) {
 		super(name);
 	}
-
+	
+	@Override
 	public void acelerar() {
 		this.ms += aceleracao;
 		super.acelerar();

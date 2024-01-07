@@ -20,7 +20,7 @@ public class Carro {
 	}
 	
 	public String toString() {
-		return "Distância percorrida => [" + this.distanciaPercorrida + "m] <=====> [" + this.ms + "ms];";
+		return "Distância percorrida por " + this.name + " => [" + this.distanciaPercorrida + "m] <=====> [" + this.ms + "ms];";
 	}
 	
 }

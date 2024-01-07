@@ -8,6 +8,7 @@ public class Civic extends Carro {
 		super(name);
 	}
 	
+	@Override
 	public void acelerar() {
 		this.ms += aceleracao;
 		super.acelerar();
