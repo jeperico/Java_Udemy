@@ -28,6 +28,9 @@ public class DesafioBinary {
 				.apply(p);
 		
 		System.out.println(valorFinal);
+		
+		// preco -> String.format("$.2f", preco);
+		// preco -> ("R$" + preco).replace(".", ",");
 	}
 }
 
